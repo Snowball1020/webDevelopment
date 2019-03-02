@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Special Green Tea</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <div class="header-container">
+      <h1><span>G</span>reenleaf.<span>O</span>nline </h1>
+    </div>
+
+    <nav class="main-menu-container">
+
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+        </ul>
+          <!-- Creating a dropwon botton-->
+          <nav class="dropdown">
+            <ul>
+              <li class="dropbtn"><a href="Product.html">Product</a></li>
+            </ul>
+            <!-- Choices from dropwon-->
+            <nav class="dropdown-content">
+                  <a href="LearnMore.html">抹茶-Matcha-</a>
+                  <a href="LearnMore.html">煎茶-Sencha-</a>
+                  <a href="LearnMore.html">ほうじ茶-Hojicha-</a>
+            </nav>
+          </nav>
+
+          <nav>
+            <ul>
+              <li><a href="Order.html">Order</a></li>
+              <li><a href="LearnMore.html">Learn More</a></li>
+              <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+
+    </nav>
+
+        <div class="main-body-container-Contact">
+          <h2 class="comment">you are always our first priority</h2>
+
+          <div class="feedBack">
+            <h1>Contact Us!</h1>
+            <h3>any concerns? please send us message.</h3>
+            <h3>Operator available from 9:00am - 5:00 pm on weekdays</h3>
+
+            <form action="confirm.php" method="post">
+
+              <input type="text" name ="name" placeholder="Your Name">
+              <input type="text" name ="subject" placeholder="Subtitle">
+              <!-- Creating a rating system -->
+              <select class="rate">
+                <option >★☆☆☆☆</option>
+                <option >★★☆☆☆</option>
+                <option >★★★☆☆</option>
+                <option >★★★★☆</option>
+                <option >★★★★★</option>
+              </select>
+              <textarea name="comment" rows="10" cols="70" placeholder="Rate our service by clicking the star!"></textarea>
+
+              <input id="sendFeedBack" type="submit" onclick="myFunction()" value="Send">
+
+            </form>
+
+            <script>
+
+            function myFunction() {
+                confirm("Thank you for your message, we will response to you within two business days");
+            }
+            </script>
+
+
+          </div>
+
+      </div>
+
+      <footer class="footer">
+            <div class="wai">
+              <h3>Greenleaf Corporation</h3>
+              <p>25 Green Dr ON Canada L99X25</p>
+            </div>
+            <div class="set">
+              <p>TEL:+1(123)-123-1234</p>
+              <p>FAX:+1(456)-456-456</p>
+            </div>
+      </footer>
+
+  </body>
+</html>

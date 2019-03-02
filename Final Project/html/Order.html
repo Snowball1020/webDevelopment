@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Special Green Tea</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="header-container">
+      <h1><span>G</span>reenleaf.<span>O</span>nline </h1>
+    </div>
+
+    <nav class="main-menu-container">
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+        </ul>
+          <!-- Creating a dropwon botton-->
+          <nav class="dropdown">
+            <ul>
+              <li class="dropbtn"><a href="Product.html">Product</a></li>
+            </ul>
+            <!-- Choices from dropwon-->
+            <nav class="dropdown-content">
+                  <a href="LearnMore.html">抹茶-Matcha-</a>
+                  <a href="LearnMore.html">煎茶-Sencha-</a>
+                  <a href="LearnMore.html">ほうじ茶-Hojicha-</a>
+            </nav>
+          </nav>
+          <nav>
+            <ul>
+              <li><a href="Order.html">Order</a></li>
+              <li><a href="LearnMore.html">Learn More</a></li>
+              <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+    </nav>
+
+        <div class="main-body-container-order">
+          <h2>We can not wait to receive your order!</h2>
+          <h3 class="yourInfo">Your information</h3>
+          <!-- Creating a contacting form including text, textares. and submit-->
+
+          <div class="userInfo">
+            <input id="date" type="date" name="date">
+            <input id="firstName" type="text" name="firstName" placeholder="First Name">
+            <input id="familyName" type="text" name="familyName" placeholder="Family Name">
+
+            <div class="userContact">
+              <input id="phone" type="tel" name="phone" placeholder="Phone Number">
+              <input id="StreetAddress" type="text" name="street" placeholder="Street">
+              <input id="CityAddress" type="text" name="city" placeholder="City">
+              <input id="PrivinceAddress" type="text" name="province" placeholder="Province">
+              <input id="PostalAddress" type="text" name="postalCode" placeholder="Postal Code">
+            </div>
+
+            <div class="userPayBy">
+              <select class="payBy">
+                <option value="Pay by..">Pay by..</option>
+                <option value="Debit/Credit">Debit/Credit</option>
+                <option value="Cash">Cash</option>
+                <option value="PayPal">PayPal</option>
+              </select>
+              <input id="cardNumber" type="text" placeholder="Card Number (if necessary)">
+            </div>
+
+          </div>
+
+
+
+          <h3 class="yourInfo">Your Order</h3>
+
+
+
+          <div class="userOrder">
+            <h1 id="matcha">抹茶-Matcha-</h1>
+            <h1 id="sencha">煎茶-Sencha-</h1>
+            <h1 id="hojicha">ほうじ茶-Hojicha-</h1>
+
+            <div class="userQuantity">
+              <h3>$32 / 31 packages</h3>
+              <h3>$35 / 31 packages</h3>
+              <h3>$30 / 31 packages</h3>
+            </div>
+
+            <div class="choose">
+              <select class="payBy">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+
+            </div>
+
+            <div class="choose">
+              <select class="payBy">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+
+            </div>
+
+            <div class="choose">
+              <select class="payBy">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
+
+            </div>
+
+          </div>
+
+
+          <div class="submitOrder">
+            <input type="submit" onclick="myFunction()" value="Send Order">
+
+            <script>
+
+            function myFunction() {
+                confirm("Thank you for your order! We will send you a confirmation mail soon!");
+            }
+            </script>
+          </div>
+
+      </div>
+
+      <footer class="footer">
+            <div class="wai">
+              <h3>Greenleaf Corporation</h3>
+              <p>25 Green Dr ON Canada L99X25</p>
+            </div>
+            <div class="set">
+              <p>TEL:+1(123)-123-1234</p>
+              <p>FAX:+1(456)-456-456</p>
+            </div>
+      </footer>
+
+  </body>
+</html>

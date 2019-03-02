@@ -1,0 +1,84 @@
+
+.header-container{
+text-align: left;
+font-size: 20px;
+}
+
+.main-menu-container{
+  width:20%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  float: left;
+}
+
+.appeal{
+  clear: left;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.offer{
+  clear: left;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 100px;
+}
+
+
+.appeal h3{
+  text-align: left;
+}
+
+.order-now{
+  position: absolute;
+  padding-left: 30px;
+
+}
+
+.order-now a{
+  padding: 30px;
+  font-size: 30px;
+}
+
+#matcha{
+clear: left;
+padding: 20px;
+}
+
+#sencha{
+clear: left;
+padding: 20px;
+
+}
+
+#hojicha{
+clear: left;
+
+padding: 20px;
+}
+
+.appeal-product{
+display: none;
+}
+
+.userInfo{
+  float: left;
+}
+
+.main-body-container-learnMore{
+  height: 1600px;
+}
+.container1{
+  clear: left;
+  width:100%;
+}
+.container2{
+  clear: left;
+  width:100%;
+}
+.container3{
+  clear: left;
+  
+  width:100%;
+}

@@ -1,0 +1,549 @@
+/* font setting as a whole*/
+.body{
+  font-family: serif;
+}
+
+/* setting for header part*/
+.header-container{
+  text-align: center;
+  width: 1140px;
+  background-color: #669966;
+  color:white;
+  word-spacing: 10px;
+  font-size: 30px;
+  background-image: url("../img/img-green.jpg");
+}
+
+.header-container h1{
+  margin: 0px 0px 0px 0px;
+
+}
+
+.header-container span{
+  color: #2aae2a;
+}
+
+/* setting for Home.html part*/
+
+
+.main-menu-container li{
+  list-style:none;
+  float:left;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+
+}
+
+.main-menu-container li:hover{
+  background-color: white;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.main-body-container{
+  width:1140px;
+  height:600px;
+  background-image: url("../img/img-home.jpg");
+  background-size: cover;
+}
+
+.main-body-container-product{
+  width:1140px;
+  height:600px;
+  background-image: url("../img/img-greentea.jpeg");
+  background-size: cover;
+}
+
+.main-body-container-order{
+  width:1140px;
+  height:600px;
+  background-image: url("../img/img-order.jpeg");
+  background-size: cover;
+}
+
+.main-body-container-learnMore{
+  width:1140px;
+  height:600px;
+  background-image: url("../img/img-tea.jpg");
+  background-size: cover;
+}
+
+.main-body-container-Contact{
+  width:1140px;
+  height:600px;
+  background-image: url("../img/img-contact.jpg");
+  background-size: cover;
+}
+
+
+.copyright{
+  text-align:right;
+  color: white;
+}
+
+
+.main-body-container h2{
+  color: white;
+  font-style: italic;
+  text-align: right;
+  padding-right: 50px;
+  border-bottom: 2px solid white;
+}
+
+.main-body-container-product h2{
+  color: white;
+  text-align: right;
+  font-style: italic;
+  padding-right: 50px;
+  border-bottom: 2px solid white;
+}
+
+.main-body-container-order h2{
+  color: white;
+  font-style: italic;
+  text-align: right;
+  padding-right: 50px;
+  border-bottom: 2px solid white;
+}
+.main-body-container-learnMore h2{
+  color: white;
+  font-style: italic;
+  text-align: right;
+  padding-right: 50px;
+  border-bottom: 2px solid white;
+}
+.main-body-container-Contact h2{
+  color: #5ff63b;
+  font-style: italic;
+  text-align: right;
+  padding-right: 50px;
+  border-bottom: 2px solid white;
+}
+
+
+
+
+.appeal{
+  padding-left: 600px;
+  padding-top: 100px;
+  color:white;
+  text-align:left;
+  font-style: italic;
+  font-weight: bold;
+}
+.appeal-product{
+  text-align:center;
+  font-style: italic;
+  font-weight: bold;
+  color:white;
+}
+
+
+.appeal h3{
+  font-size: 30px;
+}
+
+.order-now{
+  font-size:65px;
+  padding-left: 600px;
+  padding-right: 80px;
+  color:white;
+  text-align:right;
+  opacity: 0.5
+}
+
+.order-now a{
+  color: #9ff99f;
+  text-decoration: none;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+
+}
+
+
+.order-now:hover{
+  background-color: white;
+  opacity: 0.5;
+  color:green;
+  font-style: italic;
+}
+
+
+/* setting for contact.html part*/
+
+.feedBack{
+  padding-left: 600px;
+  padding-top: 50px;
+  color:black;
+  text-align:left;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.feedBack h1{
+  color: #88ff7b
+}
+
+textarea{
+  box-shadow: 10px 10px 10px;
+  opacity: 0.8;
+}
+
+textarea:hover{
+  box-shadow: 10px 10px 10px;
+  opacity: 1.0;
+}
+
+.rate{
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding: 0px 38px;
+  font-size: 20px;
+  color: #ffe500;
+}
+
+
+#sendFeedBack{
+  margin-top: 50px;
+
+  margin-left: 200px;
+}
+
+
+/*setting for footer part*/
+.footer{
+  width:1140px;
+  background-color: #153428;
+  float: left;
+  color: white;
+}
+
+.wai{
+  float: left;
+  padding-left: 30px;
+}
+
+.set{
+  float: right;
+  padding-right: 30px;
+
+}
+
+/*setting for Product.html part*/
+
+.offer{
+  text-align:center;
+  color: white;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.main-tea li{
+  list-style: none;
+  float: left;
+  padding:60px 60px;
+  font-size: 25px;
+  margin-left: 70px;
+}
+
+.main-tea #matcha a{
+  color: #2eb32e;
+}
+
+.main-tea #matcha:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+
+.main-tea #sencha a{
+  color: #cbefcb;
+}
+
+.main-tea #sencha:hover {
+  background-color: white;
+  opacity: 0.7;
+}
+
+
+.main-tea #hojicha a{
+  color: #ffcf40;
+}
+
+.main-tea #hojicha:hover {
+  background-color: white;
+  opacity: 0.5;
+}
+.container1{
+  text-align: center;
+  width: 30%;
+  height: 80%;
+  float: left;
+  padding-right:10px;
+  margin-left: 35px;
+  color: #458a45;
+}
+
+.container1:hover{
+  color:lightgreen;
+  border-top: 2px solid green;
+}
+
+
+
+.container2{
+  text-align: center;
+  width: 30%;
+  height: 78%;
+  float: left;
+  padding-right:10px;
+  color: #212f9f;
+
+}
+
+.container2:hover{
+  color:lightblue;
+  border-top: 2px solid blue;
+
+}
+
+
+.container2:hover{
+  color:lightblue;
+
+}
+
+
+.container2 p{
+  margin-bottom: 180px;
+}
+
+.container3 p{
+  margin-bottom: 60px;
+}
+
+
+
+.container3{
+  text-align: center;
+  width: 30%;
+  height: 80%;
+  float: left;
+  padding-right:10px;
+  color: #7f8200;
+
+}
+
+.container3:hover{
+  color:lightyellow;
+
+}
+
+.container3:hover{
+  color:lightyellow;
+  border-top: 2px solid yellow;
+
+}
+
+
+
+/*setting for Order.html*/
+.yourInfo{
+  color: white;
+}
+.yourOrder{
+  color: white;
+}
+
+.userInfo{
+  width: 1140px;
+  height: 100px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding:30px 30px;
+  color: white;
+}
+
+.userOrder{
+  width: 1140px;
+  height: 100px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+
+  padding:30px 30px;
+  color: white;
+}
+.submitOrder{
+  padding-top: 20px;
+  text-align: center;
+}
+
+input[type="date"]{
+  border:none;
+  border-bottom: 2px solid lightgreen;
+  opacity: 0.7;
+  width:160px;
+}
+
+input[type="tel"]{
+  border:none;
+  border-bottom: 2px solid lightgreen;
+  opacity: 0.7;
+}
+
+select{
+  border:none;
+  border-bottom: 2px solid lightgreen;
+  opacity: 0.7;
+}
+
+
+
+input[type="text"]{
+  border:none;
+  border-bottom: 2px solid lightgreen;
+  opacity: 0.7;
+}
+
+input[type="date"]{
+  border:none;
+  border-bottom: 2px solid lightgreen;
+
+}
+
+input[type="phone"]{
+  border:none;
+  border-bottom: 2px solid lightgreen;
+
+}
+
+
+input[type=text]:hover{
+  opacity: 1.0;
+
+}
+
+select:hover{
+  opacity: 1.0;
+
+}
+
+
+input[type=text]:focus{
+  background-color: lightblue;
+}
+
+#date{
+  margin-right:30px;
+}
+
+#phone{
+  margin-right:30px;
+}
+.userContact{
+  margin-top: 20px;
+}
+.userPayBy{
+  margin-top: 20px;
+}
+
+.payBy{
+  width: 160px;
+  margin-right: 28px;
+}
+
+#cardNumber{
+width:200px;
+}
+
+.userOrder h1{
+  display: block;
+  float: left;
+  padding-right: 70px;
+  padding-left: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.userQuantity h3{
+  float: left;
+  padding-top: 0px;
+  padding-right: 100px;
+  padding-left: 100px;
+  color: #ffd8f8;
+
+}
+
+.choose{
+  float:left;
+  padding:0px 80px;
+}
+
+#matcha{
+    color: #2eb32e;
+}
+
+#sencha{
+  color: #cbefcb;
+
+}
+
+#hojicha{
+  color: #ffcf40;
+
+}
+
+input[type=submit]{
+  background-color: inherit;
+  border-radius: 5%;
+  background-color: none;
+  box-shadow: 6px 6px 6px;
+  font-size: 30px;
+
+}
+
+input[type=submit]:hover{
+  background-color: #fff9c4;
+  border-radius: 5%;
+  transition: .3s;
+  box-shadow: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+/*setting for drop-down menu*/
+
+.dropdown-content{
+  display: none;
+  position:absolute;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.dropdown-content a{
+  color: black;
+  display: block;
+  padding: 0px 27px;
+  padding:5px;
+  font-weight: bold;
+}
+
+.dropdown-content a:hover{
+  background-color: white;
+  opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropbtn{
+  background-color: white;
+  opacity: 0.7;
+}
